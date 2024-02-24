@@ -1,4 +1,4 @@
-import tls_client;from utils.console import *;import os;s = tls_client.Session(client_identifier="chrome_112",random_tls_extension_order=True); import datetime;os.system('cls')
+import tls_client;from console import *;import os;s = tls_client.Session(client_identifier="chrome_112",random_tls_extension_order=True); import datetime;os.system('cls')
 def format_current_time():
     current_time = datetime.datetime.now();formatted_time = current_time.strftime("%H:%M:%S");return formatted_time
 def GenerateMail():
